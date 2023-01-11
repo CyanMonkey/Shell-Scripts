@@ -17,7 +17,6 @@ all=".1cd|.ab|.adr|.agn|.ahn|.amb|.amd|.amr|.amt|.apa|.apple|.asm|.asp|.atd|.atd
 
 
 set -xv
-#Created by David Ford
 
 if [[ $EUID -ne 0 ]]; then
 	echo "This script must be run as root"

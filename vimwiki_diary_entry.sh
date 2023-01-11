@@ -2,8 +2,6 @@
 #This script is designed to dynamically create a folder tree for the
 #current date and start the newest diary entry.
 
-#Made by David
-
 ###############
 #CONFIGURATION#
 ###############
