@@ -1,0 +1,2 @@
+dhcp_config='/home/bubbles/Davids_wiki/programming/bash_scripts/dhcputils/dhcpd.conf'
+computer_index_master='/home/bubbles/Davids_wiki/programming/bash_scripts/dhcputils/computer_index_master.sc'
