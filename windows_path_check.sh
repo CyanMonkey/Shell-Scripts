@@ -18,11 +18,11 @@ problem_files="$HOME/path_problem_files.txt"
 [ -f $problem_files ] && { rm -f $problem_files; }
 
 
-du -ch . | sed 's/ /spaceholder/g'| awk '{print $2}' >> $tempfile2
+du -ch . | sed 's/ /_/g'| awk '{print $2}' >> $tempfile2
 cat $tempfile2 | while read path; do echo "$path" | wc -c ; done >> $tempfile
 cat $tempfile2 | paste $tempfile - > $output
 
-sed -i 's/spaceholder/ /g' $output
+sed -i 's/_/ /g' $output
 
 while read line
 do
